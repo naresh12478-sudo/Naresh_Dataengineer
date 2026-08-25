@@ -19,25 +19,54 @@ print("-" * 50)
 print("Question 1: Calculate the product of first 10 natural numbers")
 # Your code here
 
+
+
 # Question 2: Find the remainder when 156 is divided by 7
 print("\nQuestion 2: Find the remainder when 156 is divided by 7")
 # Your code here
+
+a = 156
+b = 7
+remainder = a%b
+print(remainder)
 
 # Question 3: Calculate the square of 25
 print("\nQuestion 3: Calculate the square of 25")
 # Your code here
 
+number = 25
+square = number**2
+print(square)
+
 # Question 4: Find the cube root of 125
 print("\nQuestion 4: Find the cube root of 125")
 # Your code here
+
+num = 125
+cuberoot = num ** (1/3)
+print(cuberoot)
 
 # Question 5: Calculate the sum of digits in number 12345
 print("\nQuestion 5: Calculate the sum of digits in number 12345")
 # Your code here
 
+number = 12345
+sum = 0
+# print(type(number))
+for i in str(number):
+  # print(int(i))
+  sum=sum+int(i)
+print(sum)
+
 # Question 6: Check if 97 is a prime number
 print("\nQuestion 6: Check if 97 is a prime number")
 # Your code here
+
+number = 97
+if num %1 == 0:
+  print("prime number")
+else:
+  print("it is not prime number")
 
 # Question 7: Find the factorial of 8
 print("\nQuestion 7: Find the factorial of 8")
